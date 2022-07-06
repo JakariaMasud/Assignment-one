@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#top-banner {
+    background-image: url("images/donation.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#top-banner h1 {
+    font-size: 60px;
+    font-weight: 1200;
+    color: white;
+    max-width: 40%;
+}
+
+#top-banner h3 {
+    font-size: 25px;
+    font-weight: 250;
+    color: white;
+    max-width: 40%;
+}
+
+#top-banner a {
+    margin: 10px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FF5959;
+}
+
+
+
+#donate-today {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#donate-today h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 1200;
+    margin-bottom: 20px;
+}
+
+#donate-today h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #B4B4B4;
+    max-width: 40%;
+    text-align: center;
+
+}
+
+#donate-today input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 25px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#donate-amount-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+
+#donate-amount-list h2 {
+    color: #707070;
+    font-weight: 1000;
+}
+
+.single-amount {
+    background-color: #FAFAFA;
+    padding: 35px 20px;
+    margin: 15px;
+    font-size: 35px;
+    font-weight: 1200;
+    border-radius: 5px;
+
+
+
+}
+
+#selected-amount {
+    border: 3px solid #FF5959;
+    color: #FF5959 !important;
+}
+
+#donate-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#donate-plan h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 1200;
+    margin-bottom: 20px;
+
+}
+
+#donate-plan h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #B4B4B4;
+    max-width: 40%;
+    text-align: center;
+}
+
+#donate-plan-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-plan {
+    border-radius: 5px;
+    padding: 60px 20px;
+    margin: 20px;
+    width: 30%;
+}
+
+.single-plan h3 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.single-plan h4 {
+    font-weight: 200;
+    font-size: 18px;
+    color: #B4B4B4;
+    max-width: 65%;
+    margin-bottom: 20px;
+
+}
+
+.single-plan img {
+    margin-bottom: 10px;
+}
+
+#food-plan {
+    background-color: #EDF5F6;
+
+}
+
+#shelter-plan {
+    background-color: #FFEEEE;
+
+}
+
+#education-plan {
+    background-color: #FFF4D6;
+
+}
+
+#comment-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#comment-area h2 {
+    display: block;
+    font-size: 25px;
+    width: 650px;
+
+
+}
+
+
+
+#comment-area input {
+    width: 60%;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid green;
+
+}
+
+#comment-area input:focus {
+    border: 1px solid #FF5959;
+    outline: 0px;
+}
+
+#comment-area textarea {
+    width: 60%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    height: 150px;
+    border-radius: 5px;
+    border: 2px solid green;
+
+}
+
+#comment-area button {
+    display: block;
+    font-size: 18px;
+    border: 0px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FF5959;
+    margin-bottom: 15px;
+
+}
+
+#update-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#update-area h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 2000;
+    margin-bottom: 20px;
+}
+
+#update-area h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #B4B4B4;
+    max-width: 40%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+#comment-area textarea:focus {
+    border: 1px solid #FF5959;
+    outline: 0px;
+}
+
+#yellow-bg {
+    background-color: #FFF4D6;
+    padding: 120px 200px;
+}
+
+#subscribe-area {
+    position: relative;
+}
+
+#subscribe-area button {
+    border: none;
+    padding: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #FF5959;
+    color: white;
+
+}
+
+#subscribe-area input {
+    width: 500px;
+    font-size: 20px;
+    background: #D9D9D9;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 15px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+}
